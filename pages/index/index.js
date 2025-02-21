@@ -44,6 +44,7 @@ Page({
           try {
             const responseData = JSON.parse(res.data.data);
             console.log(res)
+            console.log("提交测试1")
             // 假设返回的 output 中包含图片 URL
             if (responseData.output) {
               this.setData({
